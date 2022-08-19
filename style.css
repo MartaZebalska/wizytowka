@@ -1,0 +1,72 @@
+.body {
+  background-color: #85ffbd;
+  background-image: linear-gradient(60deg, #85ffbd 0%, #fffb7d 100%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wizytowka {
+  background-color: white;
+  border-radius: 16px;
+  max-width: 624px;
+  display: flex;
+  margin:s auto;
+}
+
+.wizytowka__zdjecie {
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+  margin: 32px;
+}
+
+.wizytowka-info {
+  max-width: 380px;
+  margin: 32px 32px 32px 0px;
+}
+
+.wizytowka-info__dane {
+  margin: 0;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.wizytowka-info__opis {
+  margin: 24px 0 0 0;
+  font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+}
+
+.wizytowka-info__pozycja {
+  margin: 0;
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #545454;
+}
+
+.strong{
+    color: #00c45b;
+    font-weight: 400;
+}
+
+.wizytowka-info__link{
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #e00000;
+text-decoration: none;
+}
